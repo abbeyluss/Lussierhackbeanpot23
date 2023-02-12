@@ -76,6 +76,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: #F5F5F5;
 
 }
 
@@ -86,7 +87,8 @@ header h1 {
     line-height: 77px;
 
     color: #BFDEDC; 
-    margin-bottom: 24px
+    margin-bottom: 24px;
+    background: #F5F5F5;
 }
 
 header p {
@@ -96,16 +98,19 @@ header p {
 
     color: #504E4E;
     width: 466px;
+    background: #F5F5F5;
 }
 
 /* About*/
 .about-container {
     background: #F5F5F5;
+    margin-top: 50px;
 }
 
 header {
     display: flex;
     align-items: center;
+    background: #F5F5F5;
 
 }
 
@@ -116,7 +121,8 @@ header h1 {
     line-height: 77px;
 
     color: #BFDEDC; 
-    margin-bottom: 24px
+    margin-bottom: 24px;
+    background: #F5F5F5;
 }
 
 header p {
@@ -127,6 +133,7 @@ header p {
 
     color: #504E4E;
     width: 466px;
+    background: #F5F5F5;
 }
 
 /* FAQ */
@@ -189,4 +196,72 @@ header h1 {
     background: #669794;
     border-radius: 8px;
     padding: 6px 12px;
+}
+
+.post1-container {
+    background: #F5F5F5;
+
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    height: 72px;
+    background-position: left;
+}
+
+.post1-intro {
+    align-items: left;
+    align-items: top;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: #BFDEDC; 
+    background: #F5F5F5;
+    margin-bottom: 24px
+}
+
+.post1-content {
+    align-items: left;
+    align-items: top;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+
+    color: #757373; 
+    background: #F5F5F5;
+
+    border-radius: 8px;
+    padding: 6px 12px;
+}
+
+.post1-image {
+    align-items: left;
+    align-items: top;
+
+    background: #F5F5F5; 
+
+    border-radius: 8px;
+    padding: 6px 12px;
+    margin-bottom: 24px;
+}
+
+header h1 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: #BFDEDC; 
+    margin-bottom: 24px;
+}
+
+.wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1000px;
+
+    padding-right: 10px;
+    padding-left: 10px;
 }
